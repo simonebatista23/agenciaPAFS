@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    color: #fff;
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+}
+
+.container {
+    padding: 30px;
+    max-width: 450px;
+    width: 100%;
+    min-height: 70vh;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 15px #000;
+}
+
+.cabecalho {
+    color: lightskyblue;
+    text-align: center;
+    margin: 10px;
+    padding: 10px 0;
+    margin-bottom: 10px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    width: 100%;
+    min-height: 100%;
+    overflow: hidden;
+}
+
+.estilo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.estilo input {
+    min-width: 95%;
+    min-height: 100%;
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 5px; 
+    padding: 10px;
+}
+
+
+.bnt {
+    overflow: hidden;
+    min-height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.bnt .button {
+    max-width: 100%;
+    transition: all 0.3s;
+}
+
+
+.bnt .button {
+    min-width: 95%;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: lightskyblue;
+    color: #000;
+    border: 1px solid #000;
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    cursor: pointer;
+    height: 100%;
+}
+
+
+.bnt .button:hover {
+    opacity: 0.8;
+    transform: scale(1.25);
+}
+
+.container-validacao{
+    width: 90%;
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.validacao {
+    color: #000;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 12px;
+   
+}
+
+.validacao:hover{
+    opacity: 0.8;
+    transform: scale(1.25);
+}
+
+.container:hover{
+    box-shadow: 0 0 30px #000;
+}
